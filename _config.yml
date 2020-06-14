@@ -1,1 +1,17 @@
-theme: jekyll-theme-minimal
+# Setup
+title: The Fancy Side of Cybersecurity
+tagline:             'by <a href="https://twitter.com/FancyCyber" target="_blank">@FancyCyber</a>'
+description:         'For everything that''s too long for Twitter, yet too short for a book.'
+url:                 https://fancycyber.github.io
+baseurl:             ''
+paginate:            5
+permalink:           pretty
+github_repo:        https://github.com/FancyCyber/
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version:             1.0.0
+google_analytics_id: UA-169367772-1
