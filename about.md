@@ -15,3 +15,6 @@ Enjoy your stay,
 
 F.C.
 
+<p align="center">
+<a href="https://twitter.com/FancyCyber" ><img src="{{ site.baseurl }}/public/logo.png"> </a>
+</p>
