@@ -17,20 +17,20 @@
             <table style="border:None; background: None; margin: 0px 0px 0px 0px; border-spacing: 0px; border-collapse: collapse;">
               <tbody>
                 <tr style="border:None; background: None; margin: 0px 0px 0px 0px; border-spacing: 0px; border-collapse: collapse;">
-                  <td rowspan="2" style="border:None; background: None; margin: 0px 0px 0px 0px; border-spacing: 0px; border-collapse: collapse;">
-                    <a href="{{ site.baseurl }}/" title="Home">
-                      <img style="display: block; width: 130px;border:None; background: None; padding: px; margin: 0px 0px 0px 0px;" src="{{ site.baseurl }}/public/logo.png">
-                    </a>
-                  </td>
+
                   <td style="border:None; background: None; margin: 0px 0px 0px 0px; border-spacing: 0px; border-collapse: collapse;">            
                     <p>
-                      <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>,
-                      <span style=" display:inline;">{{ site.tagline }}</span>
+                      <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
                     </p>
                   </td>
                 </tr>
                 <tr>
                   <td style="border:None; background: None; margin: 0px 0px 0px 0px; border-spacing: 0px; border-collapse: collapse;"><small>{{ site.description }}</small></td>                    
+                </tr>
+                <tr>
+                  <td colspan=2 style="border:None; background: None; margin: 0px 0px 0px 0px; border-spacing: 0px; border-collapse: collapse;">
+                    <span style="  font-size: 75%; font-weight: 400; color: #c0c0c0; letter-spacing: 0; display:inline;">{{ site.description }} {{ site.tagline }}.</span> 
+                  </td>                    
                 </tr>
               </tbody>
             </table>
