@@ -16,5 +16,5 @@ Enjoy your stay,
 F.C.
 
 <p align="center">
-<a href="https://twitter.com/FancyCyber" ><img src="{{ site.baseurl }}/public/logo.png"> </a>
+<a href="https://twitter.com/FancyCyber" ><img style="width:152px;" src="{{ site.baseurl }}/public/round_logo.png"> </a>
 </p>
