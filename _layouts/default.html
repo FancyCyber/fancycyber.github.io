@@ -14,22 +14,23 @@
         <div class="container">
           <h3 class="masthead-title">
 
-            <table style="border:None; background: None; margin-bottom:0px">
+            <table style="border:None; background: None; margin: 0px 0px 0px 0px; border-spacing: 0px; border-collapse: collapse;">
               <tbody>
-                <tr >
-                  <td rowspan="3" style="border:None; background: None; margin-bottom:0px">
+                <tr style="border:None; background: None; margin: 0px 0px 0px 0px; border-spacing: 0px; border-collapse: collapse;">
+                  <td rowspan="2" style="border:None; background: None; margin: 0px 0px 0px 0px; border-spacing: 0px; border-collapse: collapse;">
                     <a href="{{ site.baseurl }}/" title="Home">
-                      <img style="width: 152px;border:None; background: None; margin-bottom:0px" src="{{ site.baseurl }}/public/logo.png">
+                      <img style="display: block; width: 130px;border:None; background: None; padding: px; margin: 0px 0px 0px 0px;" src="{{ site.baseurl }}/public/logo.png">
                     </a>
                   </td>
-                  <td style="border:None; background: None; margin-bottom:0px">            
-                    <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>, <small>{{ site.tagline }}</small>
-                    
+                  <td style="border:None; background: None; margin: 0px 0px 0px 0px; border-spacing: 0px; border-collapse: collapse;">            
+                    <p>
+                      <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>,
+                      <span style=" display:inline;">{{ site.tagline }}</span>
+                    </p>
                   </td>
                 </tr>
-                <tr><td style="border:None; background: None; margin-bottom:0px"><small>{{ site.description }}</small></td></td></tr>
-                    
-                    
+                <tr>
+                  <td style="border:None; background: None; margin: 0px 0px 0px 0px; border-spacing: 0px; border-collapse: collapse;"><small>{{ site.description }}</small></td>                    
                 </tr>
               </tbody>
             </table>
